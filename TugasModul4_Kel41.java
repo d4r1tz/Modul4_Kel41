@@ -69,11 +69,9 @@ public class TugasModul4_Kel41 {
 
                 case 3 :
                     
-                    
-                    
+                case 4 :
                     static String[] Jam4 = {"1. 11.10", "2. 13.30", "3. 19.15"};
                     static int jam4;
-                case 4 :
                     System.out.print("SEEKING THE SKY OF FREEDOM\n");
                     System.out.print("Tayang Pukul: \n");
                     for(int i=0;i<Jam4.length;i++) {
