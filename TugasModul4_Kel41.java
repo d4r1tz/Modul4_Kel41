@@ -22,6 +22,10 @@ public class TugasModul4_Kel41 {
     static String name;
     static String[] Jam1 = {"1. 12.00", "2. 13.45", "3. 15.35"};
     static int jam1;
+    static String[] Jam3 = {"1. 12.10", "2. 15.30", "3. 17.15"};
+    static int jam3;
+    static String[] Jam4 = {"1. 11.10", "2. 13.30", "3. 19.15"};
+    static int jam4;
     public static void kosong() {
         System.out.println("");
     }
@@ -65,9 +69,10 @@ public class TugasModul4_Kel41 {
                     System.out.println("Terima Kasih Atas Pembelian Anda, \nKamu Memilih Menonton Film A LETTER FROM NORMAN Pukul "+Jam1[jam1-1].substring(3,Jam1[jam1-1].length()));
                     System.out.println("Jangan Sampai Terlambat! ");
                     System.exit(0);
+			    break;
                 case 2 :
-                    static String[] Jam3 = {"1. 12.10", "2. 15.30", "3. 17.15"};
-                    static int jam3;
+		
+                case 3 :
                     System.out.print("RECORDS OF COMRADES\n");
                     System.out.print("Tayang Pukul: \n");
                     for(int i=0;i<Jam3.length;i++) {
@@ -81,12 +86,7 @@ public class TugasModul4_Kel41 {
                     System.out.println("Jangan Sampai Terlambat! ");
                     System.exit(0);
 			        break;
-
-                case 3 :
-                    
                 case 4 :
-                    static String[] Jam4 = {"1. 11.10", "2. 13.30", "3. 19.15"};
-                    static int jam4;
                     System.out.print("SEEKING THE SKY OF FREEDOM\n");
                     System.out.print("Tayang Pukul: \n");
                     for(int i=0;i<Jam4.length;i++) {
