@@ -68,8 +68,23 @@ public class TugasModul4_Kel41 {
                 case 2 :
 
                 case 3 :
-
+                    
                 case 4 :
+                    static String[] Jam4 = {"1. 11.10", "2. 13.30", "3. 19.15"};
+                    static int jam4;
+                    System.out.print("SEEKING THE SKY OF FREEDOM\n");
+                    System.out.print("Tayang Pukul: \n");
+                    for(int i=0;i<Jam4.length;i++) {
+                        System.out.println(Jam4[i]);
+                    }
+                    System.out.println("Silakan Pilih Jam Yang Anda Inginkan ");
+                    jam4=scan.nextInt();
+                    System.out.println("Kamu Memilih Menonton Jam "+Jam4[jam4-1].substring(3,Jam4[jam4-1].length()));
+                    System.out.println("Harga Tiket : Rp. 30.000\n");
+                    System.out.println("Terima Kasih Atas Pembelian Anda, \nKamu Memilih Menonton Film SEEKING THE SKY OF FREEDOM Pukul "+Jam4[jam4-1].substring(3,Jam4[jam4-1].length()));
+                    System.out.println("Jangan Sampai Terlambat! ");
+                    System.exit(0);
+                    break;
 
                 default:
                     System.out.println("Silakan Masukkan Pilihan Tontonan ");
