@@ -71,9 +71,9 @@ public class TugasModul4_Kel41 {
                     System.out.println("Terima Kasih Atas Pembelian Anda, \nKamu Memilih Menonton Film A LETTER FROM NORMAN Pukul "+Jam1[jam1-1].substring(3,Jam1[jam1-1].length()));
                     System.out.println("Jangan Sampai Terlambat! ");
                     System.exit(0);
-			    break;
+		    break;
                 case 2 :
-			System.out.print("DREAMS COME TRUE\n");
+		    System.out.print("DREAMS COME TRUE\n");
                     System.out.print("Tayang Pukul: \n");
                     for(int i=0;i<Jam2.length;i++) {
                         System.out.println(Jam2[i]);
@@ -85,8 +85,7 @@ public class TugasModul4_Kel41 {
                     System.out.println("Terima Kasih, \nKamu Memilih Menonton Film DREAMS COME TRUE "+Jam2[jam2-1].substring(3,Jam2[jam2-1].length()));
                     System.out.println("Jangan Sampai Terlambat! ");
                     System.exit(0);
-                    break;
-			    
+                    break;    
                 case 3 :
                     System.out.print("RECORDS OF COMRADES\n");
                     System.out.print("Tayang Pukul: \n");
@@ -105,7 +104,7 @@ public class TugasModul4_Kel41 {
                     System.out.print("SEEKING THE SKY OF FREEDOM\n");
                     System.out.print("Tayang Pukul: \n");
                     for(int i=0;i<Jam4.length;i++) {
-                        System.out.println(Jam4[i]);
+                    	System.out.println(Jam4[i]);
                     }
                     System.out.println("Silakan Pilih Jam Yang Anda Inginkan ");
                     jam4=scan.nextInt();
@@ -115,7 +114,6 @@ public class TugasModul4_Kel41 {
                     System.out.println("Jangan Sampai Terlambat! ");
                     System.exit(0);
                     break;
-
                 default:
                     System.out.println("Silakan Masukkan Pilihan Tontonan ");
                     break;
