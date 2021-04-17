@@ -22,6 +22,8 @@ public class TugasModul4_Kel41 {
     static String name;
     static String[] Jam1 = {"1. 12.00", "2. 13.45", "3. 15.35"};
     static int jam1;
+    static String[] Jam2 = {"1. 12.10", "2. 13.30", "3. 19.15"};
+    static int jam2;
     static String[] Jam3 = {"1. 12.10", "2. 15.30", "3. 17.15"};
     static int jam3;
     static String[] Jam4 = {"1. 11.10", "2. 13.30", "3. 19.15"};
