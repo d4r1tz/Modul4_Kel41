@@ -71,7 +71,20 @@ public class TugasModul4_Kel41 {
                     System.exit(0);
 			    break;
                 case 2 :
-		
+			System.out.print("DREAMS COME TRUE\n");
+                    System.out.print("Tayang Pukul: \n");
+                    for(int i=0;i<Jam2.length;i++) {
+                        System.out.println(Jam2[i]);
+                    }
+                    System.out.println("Silakan Pilih Jam Yang Anda Inginkan ");
+                    jam2=scan.nextInt();
+                    System.out.println("Kamu Memilih Menonton Jam "+Jam2[jam2-1].substring(3,Jam2[jam2-1].length()));
+                    System.out.println("Harga Tiket : Rp. 35.000\n");
+                    System.out.println("Terima Kasih, \nKamu Memilih Menonton Film DREAMS COME TRUE "+Jam2[jam2-1].substring(3,Jam2[jam2-1].length()));
+                    System.out.println("Jangan Sampai Terlambat! ");
+                    System.exit(0);
+                    break;
+			    
                 case 3 :
                     System.out.print("RECORDS OF COMRADES\n");
                     System.out.print("Tayang Pukul: \n");
