@@ -16,8 +16,7 @@ public class TugasModul4_Kel41 {
         System.out.println("    4. SEEKING THE SKY OF FREEDOM          ");
         System.out.println("       Rp. 30000        (11:10) (13:30) (19:15)");
         System.out.println("                  ");
-
-        namamu();
+	    
     }
     static Scanner scan = new Scanner(System.in);
     static String name;
@@ -32,11 +31,13 @@ public class TugasModul4_Kel41 {
     public static void kosong() {
         System.out.println("");
     }
-    public static void namamu() {
-        System.out.println("Silakan Masukkan Nama Anda ");
-        name = scan.next();
-        System.out.println("Halo " + name);
-        umurmu();
+    public static class namamu {
+        public void name() {
+            System.out.println("Silakan Masukkan Nama Anda");
+            String nama = scan.next();
+            System.out.println("Nama " + nama);
+            umurmu();
+        }
     }
         public static void umurmu(){
             System.out.println("Silakan Masukkan Umur Anda");
@@ -46,6 +47,7 @@ public class TugasModul4_Kel41 {
     public static void main(String[] args){
         Scanner input = new Scanner (System.in);
         int pilih;
+	namamu nawa = new namamu();    
         String[][] anggota = {{"Kelompok 41", "Shift 2"}, {"Naura Sharfina Azarine", "21120120140159", "Daniel Ritz", "21120120120021", "Kakung Bangkit Pakarti", "21120120140130", "Salsha Nabilla Putri", "21120120140173"}};
         System.out.println(anggota [0][0]);
         System.out.println(anggota [0][1]);
@@ -56,6 +58,7 @@ public class TugasModul4_Kel41 {
         System.out.println("===============================================\n\n");
         while (true){
             jadwal();
+	    nawa.name();	
             System.out.print("Masukkan Pilihan Tontonan : ");
             pilih = Integer.parseInt(input.next());
             switch(pilih){
