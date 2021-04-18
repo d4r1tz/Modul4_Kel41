@@ -35,7 +35,7 @@ public class TugasModul4_Kel41 {
         public void name() {
             System.out.println("Silakan Masukkan Nama Anda");
             String nama = scan.next();
-            System.out.println("Nama " + nama);
+            System.out.println("Halo " + nama);
             umurmu();
         }
     }
