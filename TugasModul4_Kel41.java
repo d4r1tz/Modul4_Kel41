@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class TugasModul4_Kel41 {
     public static void jadwal(){
+        System.out.println("              BIOSKOP          ");
         System.out.println("            KINO CXCIV          ");
         System.out.println("    WAKTU TAYANG HARI INI :         ");
         System.out.println("    1. A LETTER FROM NORMAN          ");
